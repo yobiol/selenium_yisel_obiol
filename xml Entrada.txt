@@ -1,0 +1,32 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:ps="http://schemas.datacontract.org/2004/07/PS.IssuerFinancial.ClientWS.Contract.Datatypes">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AcceptPayment>
+         <!--Optional:-->
+         <tem:IssuerCode>002</tem:IssuerCode>
+         <!--Optional:-->
+         <tem:payment>
+            <!--Optional:-->
+            <ps:AccountNumber>3719</ps:AccountNumber>
+            <!--Optional:-->
+            
+            <!--Optional:-->
+            
+            <!--Optional:-->
+            <ps:Amount>300</ps:Amount><ps:CurrencyCode>858</ps:CurrencyCode><ps:Description>pago por WS</ps:Description>
+            <!--Optional:-->
+            <ps:OperationCategoryCode>16</ps:OperationCategoryCode>
+            <!--Optional:-->
+            <ps:PaymentChannelCode>5</ps:PaymentChannelCode>
+            <!--Optional:-->
+            <ps:PaymentDate>31032029 00:00:00</ps:PaymentDate>
+            <!--Optional:-->
+            <ps:PaymentIssuerBranchCode>1005</ps:PaymentIssuerBranchCode>
+            <!--Optional:-->
+            
+            <!--Optional:-->
+            <ps:PaymentMethod>1</ps:PaymentMethod>
+         </tem:payment>
+      </tem:AcceptPayment>
+   </soapenv:Body>
+</soapenv:Envelope>
